@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+    <link rel="stylesheet" href="styles_blog.css">
+</head>
+<body>
+    <header>
+        <h1>Food Delivery Service</h1>
+    </header>
+    <main>
+        <section id="restaurant1">
+            <h2>Restaurant1 Menu</h2>
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <p>$10.00</p>
+                <button onclick="orderItem('Pizza', 10)">Order</button>
+            </div>
+            <div class="menu-item">
+                <h3>Burger</h3>
+                <p>$8.00</p>
+                <button onclick="orderItem('Burger', 8)">Order</button>
+            </div>
+            <div class="menu-item">
+                <h3>Pasta</h3>
+                <p>$12.00</p>
+                <button onclick="orderItem('Pasta', 12)">Order</button>
+            </div>
+        </section>
+        
+        <section id="restaurant2">
+          <h2>Restaurant2 Menu</h2>
+          <div class="menu-item">
+              <h3>Fried chicken</h3>
+              <p>$30.00</p>
+              <button onclick="orderItem('Fried chicken', 30)">Order</button>
+          </div>
+          <div class="menu-item">
+              <h3>Chicken Burger</h3>
+              <p>$18.00</p>
+              <button onclick="orderItem('Chicken Burger', 18)">Order</button>
+          </div>
+          <div class="menu-item">
+              <h3>Veg Burger</h3>
+              <p>$10.00</p>
+              <button onclick="orderItem('Veg Burger', 10)">Order</button>
+          </div>
+      </section>
+  
+      <section id="restaurant3">
+        <h2>Restaurant3 Menu</h2>
+        <div class="menu-item">
+            <h3>Fried chicken with Fries</h3>
+            <p>$35.00</p>
+            <button onclick="orderItem('Fried chicken', 35)">Order</button>
+        </div>
+        <div class="menu-item">
+            <h3>Cheese Burger</h3>
+            <p>$20.00</p>
+            <button onclick="orderItem('Chicken Burger', 20)">Order</button>
+        </div>
+        <div class="menu-item">
+            <h3>Veg Burger</h3>
+            <p>$15.00</p>
+            <button onclick="orderItem('Veg Burger', 15)">Order</button>
+        </div>
+    </section>
+    <section id="cart" >
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+          <!-- Cart items will be appended here -->
+      </ul>
+      <p id="total-price">Total: $0.00</p>
+      <button id="checkout" onclick="checkout()">Checkout</button>
+  </section>
+
+    
+    </main>
+    <script src="scripts_blog.js"></script>
+</body>
+</html>
