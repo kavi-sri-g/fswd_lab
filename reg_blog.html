@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" 
+          type="text/css" 
+          href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><center>Registration Page</center></h1>
+        <form method="post" action="register.php">
+            <label for="name"><center>
+                Name:
+            </label>
+            <br>
+            <input type="text" 
+                   id="name"
+                   name="name" required>
+            </br>    
+
+            <label for="username">
+                Username:
+            </label>
+            <br>
+            <input type="text" 
+                   id="username" 
+                   name="username" required>
+            </br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" 
+                   id="email" 
+                   name="email" required>
+            </br>
+
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" 
+                   id="password" 
+                   name="password" required>
+            </br>
+            <label for="confirm password"> Confirm Password:</label>
+            <br>
+            <input type="confirm password" 
+                    id="confirm password" 
+                    name="confirm password" required>
+            </br>
+        </br>
+
+            <input type="submit" 
+                   value="Register">
+        </form>
+        <p> Already have an account?</p>
+        <a href="login.html">Click Here</a></center>
+    </div>
+    <br>
+</body>
+
+</html>
