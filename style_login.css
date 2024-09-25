@@ -1,0 +1,12 @@
+.container{
+    background-image:
+url(https://img.freepik.com/free-photo/top-view-food-frame-with-salad-copy-space_23-2148247872.jpg);
+    padding:100px;
+    background-size: cover;
+}
+.contain{
+    background-image:
+url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-simple-food-delivery-meal-fashion-poster-background-yellow-back-image_158377.jpg);
+    padding:300px;
+    background-size: cover;
+}
